@@ -5,6 +5,10 @@
     --blood-red: #69140eff;
     --brown: #a44200ff;
     --bronze: #d58936ff;    
-    --texto: "Josefin Sans"
-    --título: "Lobster"
+    --texto: "Josefin Sans", sans-serif;
+    --título: "Lobster", sans-serif;
+}
+body{
+   background-color: var(--blood-red) ;
+   font-family: var(--texto);
 }
